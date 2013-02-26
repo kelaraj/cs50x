@@ -1,0 +1,19 @@
+0.  [BMP: 16777216, GIF: 256, JPEG: 16777216, PNG: 281474976710656]
+1.  GIFs
+2.  Lossy compression deletes photo data upon save, to save space. Lossless compression maintains that data, though still compresses the file.
+3.  JPEG
+4.  The system modifies the filename's first character in the file's directory and moves all of the file's FAT clusters to the hard drive's list of free clusters.
+5.  Overwriting all data on a disk; commonly done by filling every addressable block with a NUL character.
+6.  A library that declares sets of integer types having specified widths, and defines corresponding sets of macros. It also defines macros that specify limits of integer types corresponding to types defined in other headers.
+7.  They define integers as being signed/unsigned and having a specific byte length.
+8.  [BYTE: 1, DWORD: 4, LONG: 8, WORD: 4]
+9.  BM
+10. bfSize is the size, in bytes, of the BMP. biSize is the number of bytes required by the structure.
+11. DIB is top-down, biCompression must be either BI_RGB or BI_BITFIELDS.
+12. BITMAPV4HEADER
+13. Because outfile (AKA argv[2]) refers to a file that is write-protected.
+14. Because we only want to manipulate one element.
+15. 3
+16. Sets the file position indicator, in bytes, from a relative or absolute position.
+17. Sets the seek offset relative to the current position, as opposed to the beginning of the file.
+18. Fozzy Bear!

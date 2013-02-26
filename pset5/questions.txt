@@ -1,0 +1,21 @@
+0.  pneumonoultramicroscopicsilicovolcanoconiosis is the longest word in this problem set's dictionary. It is also fun to pronounce.
+1.  Returns resource usage measures for its parameter 'who'
+2.  16
+3.  Because C requires passing structs by reference in functions, because by value, the size would be too big
+4.  Speller.c reads words from the file, character by character, using a for loop to begin reading the first character of 
+    the file, incrementing by one character until it reaches the end of the file. If the character is a letter or apostrophe,
+    it is added to a word. If the word becomes larger than what we have defined as the largest word possible, the word is
+    ignored. If the word has a digit, it is ignored as well.
+    
+    If a word still exists, it is counted, checked for spelling, and printed. The amount of time it takes to complete the
+    checking is logged in ti_check.    
+5.  To be able to account for numerical inputs and other punctuation which we have deemed invalid.
+6.  Because word LENGTH and DICTIONARY are # declared as constants (word is an array of LENGTH+1)
+7.  Hash table with linked lists. My hash table size is 1024, and each node in my linked list contains a word less than size 46,
+    and a pointer to another node (or to Null to indicate the end of the linked list).
+8.  Actually very fast. The problem was not with the speed of my code the first time I got it working; the problem was getting my
+    code working :)
+9.  None. I actually just needed to get it working, but I was optimizing at each stage of writing the code, so by the time it
+    finally compiled correctly, it was very fast.
+10. I don't think it is perfectly distributed through my hash table. With further dictionary analysis and dictionary processing, I
+    believe I could make it even faster.
